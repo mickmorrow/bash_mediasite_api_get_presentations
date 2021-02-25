@@ -15,6 +15,7 @@ Alternatively, I tend to use the Mediasite analytics reports to create a get a l
 
 # Example output ...
 
+```
 $ ../bash/mediasite_api_get_presentations_1000.sh
 This script will list the first 1,000 presentations (id, title). Press any key to continue, or control+c to quit.
 

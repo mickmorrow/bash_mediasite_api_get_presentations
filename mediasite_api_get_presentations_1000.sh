@@ -8,8 +8,6 @@ echo 'Working ...'
 echo
 #
 source ./mediasite_api_config.sh
-#rm ''"$MEDIASITE_ROOT_URL"'_presentations_id_list_1000.txt'
-#rm ''"$MEDIASITE_ROOT_URL"'_presentations_id_title_list_1000.txt'
 curl -sX GET ''"$MEDIASITE_ROOT_URL"'/Api/v1/Presentations?$select=card&$skip=0&$top=1000' \
      --header 'sfapikey: '"$MEDIASITE_SFAPIKEY"'' \
      --header 'Content-Type: application/json; charset=utf-8' \
